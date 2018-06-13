@@ -1,155 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89fb4fd5-010a-4ea0-9188-24ea95e9dde9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/Assert/imgs/2017-12-28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/Assert/imgs/2017-12-281.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/Assert/imgs/3256657136926fa.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/Assert/imgs/Blokchain.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/Assert/imgs/Graph1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/Assert/imgs/Mobile-Iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/Assert/imgs/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/Assert/imgs/bg_video.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/Assert/imgs/giphy.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/Assert/imgs/ios-timelineChart_iphone8silver_portrait.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/Assert/imgs/nadine-shaabana-153252.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/Assert/imgs/rc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/Assert/imgs/rcd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/Assert/imgs/rcp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/Assert/imgs/rik-van-der-kroon-34753.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/Assert/imgs/untitled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/Assert/imgs/wesson-wang-110739.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Bold.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Light.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Light.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Light.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Medium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Medium.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Thin.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Thin.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Thin.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/font/roboto/Roboto-Thin.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/images/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/images/78.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/images/building1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/images/howitworks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/images/rcd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/images/rclogin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/img/Screenshot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/img/lightbox/default-skin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/img/lightbox/preloader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/img/overlays/01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/img/overlays/02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/img/overlays/03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/img/overlays/04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/img/overlays/04.png~HEAD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/img/overlays/04.png~ecacfc5c730e25dcad92fe8f4a80cba6c23a4b6b" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/img/overlays/05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/img/overlays/06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/img/overlays/07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/img/overlays/08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/img/overlays/09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Bold.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Light.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Light.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Light.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Medium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Medium.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Thin.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Thin.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Thin.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/font/roboto/Roboto-Thin.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/img/Screenshot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/img/lightbox/default-skin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/img/lightbox/preloader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/img/overlays/01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/img/overlays/02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/img/overlays/03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/img/overlays/04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/img/overlays/04.png~HEAD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/img/overlays/04.png~ecacfc5c730e25dcad92fe8f4a80cba6c23a4b6b" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/img/overlays/05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/img/overlays/06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/img/overlays/07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/img/overlays/08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/img/overlays/09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/migrations/0002_auto_20180611_2325.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/migrations/0003_auto_20180611_2335.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/css/dashboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/css/mdb.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/img/lightbox/default-skin.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/img/svg/arrow_left.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/img/svg/arrow_right.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/js/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/js/mdb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/js/mdb.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/static/accs/js/popper.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/templates/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accs/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/migrations/0002_auto_20180611_2218.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/migrations/0003_auto_20180611_2335.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/css/about.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/css/mdb.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/css/mdb.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/img/lightbox/default-skin.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/img/svg/arrow_left.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/static/capital/img/svg/arrow_right.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/templates/capital/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/templates/capital/dashboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/templates/capital/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirement.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
-    </list>
+    <list default="true" id="89fb4fd5-010a-4ea0-9188-24ea95e9dde9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,13 +16,13 @@
         <entry file="file://$PROJECT_DIR$/rockstonecap/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="334">
-              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+              <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pipfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Pipfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pipfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="151">
@@ -180,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -194,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -234,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/rockstonecap/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -252,6 +104,7 @@
         <option value="$PROJECT_DIR$/rockstonecap/settings.py" />
         <option value="$PROJECT_DIR$/Pipfile" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -534,9 +387,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="2" width="1376" height="773" extended-state="1" />
+    <frame x="-7" y="2" width="1376" height="773" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25835866" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25835866" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -544,7 +397,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -587,7 +440,7 @@
     <entry file="file://$PROJECT_DIR$/rockstonecap/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -600,26 +453,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rockstonecap/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -636,6 +473,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
           <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rockstonecap/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

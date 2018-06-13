@@ -1,0 +1,319 @@
+.submit-btn {
+    background-color: #fff;
+    border: 3px solid #333;
+}
+
+select {
+    color: white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid #333;
+    background: transparent;
+    width: 90px;
+    padding: 5px 5px 5px 5px;
+}
+
+.select-error {
+    border: 5px solid red;
+}
+
+.month-select {
+    width: 75px;
+}
+
+.day-select {
+    width: 60px;
+}
+
+.example {
+    font-size: 12px;
+    font-style: italic;
+    color: gray;
+}
+
+.btn-rounded {
+    border-radius: 10em;
+}
+
+.blue-gradient {
+    background: -webkit-linear-gradient(50deg, #45cafc, #303f9f);
+    background: linear-gradient(40deg, #45cafc, #303f9f);
+}
+
+.brown-gradient {
+    background: -webkit-linear-gradient(50deg, #b3b5da, #0609c5);
+    background: linear-gradient(40deg, #b3b5da, #0609c5);
+}
+
+.md-form .prefix {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+p {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h6 {
+    line-height: 1.7;
+}
+
+.md-form label {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.left {
+    left: 0%;
+    top: 0px;
+    bottom: 0px;
+    width: 35%;
+    float: left;
+}
+
+.right {
+    position: fixed;
+    left: 35%;
+    top: 0px;
+    bottom: 0px;
+    width: 65%;
+    float: left;
+    background-color: #0609c5;
+}
+
+body {
+    color: #fff;
+    padding-top: 5rem;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+    width: 80%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid #333;
+    /*background-color: #00ffa2 */
+}
+
+.rc-input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid #333 !important;
+    background: red;
+    width: 90% !important;
+    color: white;
+}
+
+.input-error {
+    border: 5px solid red;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+@font-face {
+    font-family: Circular;
+    src: url("/fonts/circular-light.woff") format("woff");
+    font-weight: 200;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Circular;
+    src: url("/fonts/circular-book.woff") format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Circular;
+    src: url("/fonts/circular-medium.woff") format("woff");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Circular;
+    src: url("/fonts/circular-bold.woff") format("woff");
+    font-weight: 800;
+    font-style: normal
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    /*border: none;*/
+    box-sizing: border-box;
+    font-family: 'Circular';
+    font-weight: 800;
+    /*background-color: #00ffa2;*/
+    /*font-family: 'Comic Sans MS', TimesNewRoman, "Times New Roman", Times, 'Permanent Marker', cursive;*/
+}
+
+input {
+    width: 90%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid #333;
+    /*background-color: #00ffa2 */
+}
+
+.input-error {
+    border: 5px solid red;
+}
+
+.select-error {
+    border: 5px solid red;
+}
+
+
+/* CAUTION: IE hackery ahead */
+
+select::-ms-expand {
+    display: none;
+    /* remove default arrow on ie10 and ie11 */
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.options ul {
+    /*padding: 25px 25px;*/
+    text-align: left;
+}
+
+ul li p {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.item {
+    margin-top: 30px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 8rem;
+    /*color: #333;*/
+    font-family: 'Circular', Times, 'Comic Sans MS', 'Permanent Marker', cursive;
+    font-weight: 800;
+    text-align: left;
+    /*color: white;*/
+}
+
+.error-msg {
+    font-size: 16px;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    height: 80px;
+    background-color: #fff;
+    border: 3px solid #333;
+}
+
+.result-hide {
+    display: none;
+}
+
+.money,
+.loading {
+    width: 70px;
+}
+
+.ticker-msg a {
+    text-decoration: underline;
+}
+
+.rotateit {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.footer {
+    /*margin-top: 100px;*/
+    padding-right: 25px;
+    font-size: 0.75em;
+}
+
+.btn-floating {
+    width: 47px;
+    height: 47px;
+    position: relative;
+    z-index: 1;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 10px;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+}
+
+.whitetxt {
+    color: white
+}
+
+.logocenter {
+    margin: 5rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+}
+
+waves-effect {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    z-index: 1;
+}
+
+.btn-floating.btn-sm {
+    width: 36.15385px;
+    height: 36.15385px;
+}
+
+
+/* Background full withno repeat */
+
+.backgroundpic {
+    background: url("/accs/static/accs/images/rclogin.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
