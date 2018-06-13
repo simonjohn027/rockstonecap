@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Rockstone Capital</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.5/css/mdb.min.css" />
+
+    <!-- Template styles -->
+
+    <!--load statics-->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'Capital/css/about.css'%}">
+
+</head>
+
+<body>
+
+    <header>
+        <!--Main Navigation-->
+        <header>
+
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar mdb-color lighten-2">
+                <div class="container">
+                    <a class="navbar-brand" href="/">
+                        <strong>Rockstone Capital</strong>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse right" id="navbarSupportedContent-7">
+                        <ul class="navbar-nav ml-auto">
+
+                             {% if not user.is_authenticated %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'login'%}?next={{request.path}}">SIGNIN</a>
+                        </li>
+                        {% else %} {% if user.is_staff %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'logout'%}?next={{request.path}}">LOGOUT</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../admin/Capital">DASHBOARD
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                        </li>{% else %}
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'logout'%}?next={{request.path}}">LOGOUT</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="{% url 'dashboard' %}">DASHBOARD
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                        </li>
+                        {% endif %} {% endif %}
+
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </nav>
+            <!-- Navbar -->
+
+            <!-- Full Page Intro -->
+            <div class="view full-page-intro" style="background-image: url('/static/capital/images/78.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+                <!-- Mask & flexbox options-->
+                <div class="mask rgba-black-light d-flex justify-content-center  ">
+                    <div class="container-fluid">
+                        <div class="row wow fadeIn pt-5 mt-3" data-wow-delay="0.2s">
+                            <div class="col-md-12 mt-5 ml-auto ">
+                                <div class="flex-container">
+                                    <div class="text-left box">
+                                        <h5 class="h5-reponsive white-text font-up font-bold  wow fadeInDown" data-wow-delay="0.3s">
+                                            <strong>Vision</strong>
+                                        </h5>
+                                        <hr class="hr-light  wow fadeInDown" data-wow-delay="0.4s">
+                                        <h5 class="font-up mb-5 white-text wow fadeInDown" data-wow-delay="0.4s">
+                                            <strong>Photography & design</strong>
+                                        </h5>
+                                    </div>
+
+                                    <div class="text-left box">
+                                        <h5 class="h5-reponsive white-text font-up font-bold  wow fadeInDown" data-wow-delay="0.3s">
+                                            <strong>Mission</strong>
+                                        </h5>
+                                        <hr class="hr-light  wow fadeInDown" data-wow-delay="0.4s">
+                                        <h5 class="font-up mb-5 white-text wow fadeInDown" data-wow-delay="0.4s">
+                                            <strong>Photography & design</strong>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt-5 mt-1">
+                            <div class="col-md-12 ">
+                                <div class="text-left box">
+                                    <h5 class="h5-reponsive white-text font-up font-bold  wow fadeInDown" data-wow-delay="0.3s">
+                                        <strong>Team</strong>
+                                    </h5>
+                                    <hr class="hr-light  wow fadeInDown" data-wow-delay="0.4s">
+                                    <h5 class="font-up mb-5 white-text wow fadeInDown" data-wow-delay="0.4s">
+                                        <strong>Photography & design</strong>
+                                    </h5>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <!-- Mask & flexbox options-->
+
+            </div>
+            <!-- Full Page Intro -->
+
+
+            <!--/.Footer-->
+
+            <!-- SCRIPTS -->
+            <!-- JQuery -->
+            <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+            <!-- Bootstrap tooltips -->
+            <script type="text/javascript" src="js/popper.min.js"></script>
+            <!-- Bootstrap core JavaScript -->
+            <script type="text/javascript" src="js/bootstrap.min.js"></script>
+            <!-- MDB core JavaScript -->
+            <script type="text/javascript" src="js/mdb.min.js"></script>
+            <!-- Initializations -->
+            <script type="text/javascript">
+                // Animations initialization
+                new WOW().init();
+            </script>
+</body>
+
+</html>

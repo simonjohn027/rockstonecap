@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block content %}
+    <main class="rcl-wrap">
+        <div class="_rcl-container">
+
+            <div class="rcl-left">
+
+                <div class="rcl-leftWrap">
+
+                    <div class="rcl-descr text-left">
+                        <h2 class="rcl-title">Rockstone Capital</h2>
+                        <p class="rc-display">The future belongs to those with the courage to create it.</p>
+                    </div>
+
+                    <div class="rcl-rgbtn">
+                        <small class="text-left form-text text-muted">Register Today</small>
+                        <button class="btn btn-primary"><i class="fab fa-facebook-f"></i></button>
+                        <button class="btn btn-success"  href="{% url 'register'%}?next={{request.path}}">Register</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="rcl-right">
+                <div class="my-5 mx-5 pt-2">
+                    <form method='POST' action='' enctype='multipart/form-data'>
+                         {% csrf_token %}
+                        <div class="text-center mt-3">
+
+                            {% load staticfiles %}
+                            <img class="mb-2 rc-brand" src="{% static "accs/images/rcd.png" %}" alt="rcd" width="130" height="62">
+                            <h1 class="h3 text-left mb-3 font-weight-normal">Sign In</h1>
+                           <!-- <small class=" text-left form-text text-muted">Don't have an account?,Create your account it takes less than a minute</small>
+                          --->
+                        </div>
+                        <div class="form-group mt-3">
+                            {{ form.username.error_message }}
+                            <label for="username" class="sr-only">{{ form.username.label }}</label>
+                            {{ form.username}}
+
+                        </div>
+                        <div class="form-group">
+                            {{ form.password.error_message }}
+                            <label for="password" class="sr-only">{{ form.password.label}}</label>
+                             {{ form.password }}
+                        </div>
+                        {% if form.errors %}
+                                <p class="label label-danger" style="color: black">
+                                    Your username and password didn't match. Please try again.
+                                </p>
+                                {% endif %}
+                        <div class="form-check text-center">
+                            <input type="hidden" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1"></label>
+                        </div>
+                        <button type="submit" class="btn btn-block btn-primary">Sign In</button>
+                        <input type="hidden" name="next" value="{{ next }}" />
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+{% endblock %}

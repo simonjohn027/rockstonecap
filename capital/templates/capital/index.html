@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Rockstone Capital | Home</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    {% load staticfiles %}
+    <link href="{% static "accs/css/bootstrap.min.css"%}" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    {% load staticfiles %}
+    <link href="{% static "accs/css/mdb.min.css" %}" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static "accs/css/index.css"%}">
+    <style type="text/css">
+        html,
+        body,
+        header,
+        .view {
+            height: 100%;
+        }
+
+        @media (max-width: 740px) {
+            html,
+            body,
+            header,
+            .view {
+                height: 550px;
+            }
+            .view1{
+                height:205px;
+            }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+            html,
+            body,
+            header,
+            .view {
+                height: 700px;
+            }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1C2331!important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+            <div class="container">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="/">
+                    <strong>Rockstone Capital</strong>
+                </a>
+
+                <!-- Collapse -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <!-- Left -->
+                    <ul class="navbar-nav mr-auto">
+
+                    </ul>
+
+                    <!-- Right -->
+                    <ul class="navbar-nav ">
+
+                        {% if not user.is_authenticated %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'register'%}?next={{request.path}}">SIGN UP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'login'%}?next={{request.path}}">SIGNIN</a>
+                        </li>
+                        {% else %} {% if user.is_staff %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'logout'%}?next={{request.path}}">LOGOUT</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../admin/capital/">DASHBOARD
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                        </li>{% else %}
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'logout'%}?next={{request.path}}">LOGOUT</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="{% url 'dashboard' user.id %}">DASHBOARD
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                        </li>
+                        {% endif %} {% endif %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'about' %}">ABOUT US</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+        <!-- Navbar -->
+
+        <!-- Full Page Intro -->
+        <!-- Intro Section -->
+        <div class="view hm-indigo-light jarallax" data-jarallax='{"speed": 0.2}' {% load static %} style='background-image: url({% static 'accs/images/building1.jpg' %})'>
+            <div class="full-bg-img">
+                <div class="container rci-flex-left">
+                    <div class="row pt-5 mt-3">
+                        <div class="col-md-12">
+                            <div class="text-left">
+                                <h1 class="h1-reponsive white-text font-up font-bold mb-3 wow fadeInDown" data-wow-delay="0.3s">
+                                    <strong>Prepare for your future today</strong>
+                                </h1>
+                                <hr class="hr-light mt-4 wow fadeInDown" data-wow-delay="0.4s">
+                                <h5 class="mb-5 white-text wow fadeInDown" data-wow-delay="0.4s">
+                                    <strong>We Help You Build Long-Term Wealth In The Digital Currency Economy</strong>
+                                </h5>
+                                <a class="btn btn-outline-white wow fadeInDown" href="{% url 'register'%}?next={{request.path}}" data-wow-delay=" 0.4s ">Start Investing</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Full Page Intro -->
+
+    </header>
+
+
+    <main>
+
+        <!--Main layout-->
+        <div class="container-justify ">
+
+            <!--Page heading-->
+            <div class="feature">
+                <div class="container">
+                    <div class="row wow fadeIn " data-wow-delay="0.2s ">
+                        <div class="col-md-12 mt-1 ml-auto ">
+                            <div class="flex-container text-center">
+                                <div class="box ">
+                                    <h3>Risk Based Portfolio </h3>
+                                    <p>Tailor your portfolio based on your risk tolerance and financial goals</p>
+                                </div>
+                                <div class="box box2 ">
+                                    <h3>Active Management</h3>
+                                    <p>Benefit from our active and diversification strategies in all market cycles </p>
+                                </div>
+                                <div class="box ">
+                                    <h3>High-Level Security </h3>
+                                    <p>Reduce your risk exposure using our security mechanisms</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--/.Page heading-->
+
+
+            <!--First row-->
+            <div class="container">
+                <div class="row mt-0 py-5  wow fadeIn cerulean" data-wow-delay="0.2s">
+                    <hr>
+                    <!--Featured image-->
+                    <div class="col-lg-6">
+                        <div class="view1 overlay z-index-1 hm-white-light  rounded">
+
+                            {% load static %}
+                        <img src="{% static 'accs/images/howitworks.png'%}" alt="RC" class="img-fluid">
+                            <div class="mask"></div>
+                        </div>
+                    </div>
+                    <!--/.Featured image-->
+
+                    <!--how it work excerpt-->
+                    <div class="col-lg-6">
+                        <a href="#">
+                            <h2 class="sectionheader">How It Works</h2>
+                        </a>
+                        <div class="container">
+                            <ul class="list-group list-group-flush ">
+                                <li class="list-group-item"> <span class="badge badge-primary">1</span>Create an account and select your portfolio.</li>
+                                <li class="list-group-item"><span class="badge badge-primary">2</span>Deposit your funds into your account.</li>
+                                <li class="list-group-item"><span class="badge badge-primary">3</span>Monitor the growth of your investment.</li>
+                                <li class="list-group-item"><span class="badge badge-primary">4</span>Withdraw your money anytime & anywhere.</li>
+
+
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!--/.How it works excerpt-->
+
+                </div>
+            </div>
+
+            <!--/.First row-->
+
+
+
+
+
+
+</div>
+
+    </main>
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark mt-4">
+
+        <div style="background-color: #6351ce;">
+            <div class="container">
+
+                <!-- Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0">Get connected with us on social networks!</h6>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+                            <i class="fa fa-facebook white-text mr-4"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fa fa-twitter white-text mr-4"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a class="gplus-ic">
+                            <i class="fa fa-google-plus white-text mr-4"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fa fa-linkedin white-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fa fa-instagram white-text"> </i>
+                        </a>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
+        </div>
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5">
+
+            <!-- Grid row -->
+            <div class="row mt-3" id="contacts">
+
+                <!-- Grid column -->
+                <div class="col-md-5 col-lg-5 col-xl-5 mx-auto mb-4">
+
+                    <!-- Content -->
+                    <h6 class="text-uppercase font-weight-bold">OUR COMMITMENT</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>We are committed to making a positive financial difference in your future.</p>
+
+                </div>
+                <!-- Grid column -->
+
+
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#">Sign In</a>
+                    </p>
+                    <p>
+                        <a href="#">Log In</a>
+                    </p>
+                    <p>
+                        <a href="http://b-launchpad.com">B-Launchpad</a>
+                    </p>
+
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p><i class="fa fa-home mr-3"></i> Port Louis, Mauritius</p>
+                    <p><i class="fa fa-envelope mr-3"></i> info@rockstone.capital</p>
+                    <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="http://rockstone.capital" target="_blank">Rockstone Capital</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+    <!-- SCRIPTS -->
+    {% load staticfiles%}
+    <!-- JQuery -->
+    <script type="text/javascript " src="{% static "accs/js/jquery-3.2.1.min.js" %} "></script>
+    <!-- Bootstrap tooltips -->
+    <script src="{% static "accs/js/popper.min.js" %}"></script>
+    <script src="{% static "accs/js/bootstrap.min.js" %}"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript " src="{% static "accs/js/mdb.min.js" %} "></script>
+    <!-- Initializations -->
+    <script type="text/javascript ">
+        // Animations initialization
+        new WOW().init();
+    </script>
+</body>
+
+</html>

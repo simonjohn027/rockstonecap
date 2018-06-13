@@ -1,0 +1,45 @@
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+
+html,
+body,
+.view {
+    height: 100%;
+}
+
+@media (max-width: 740px) {
+    .full-page-intro {
+        height: 1000px;
+    }
+}
+
+.boxborder {
+    border: 2px white solid;
+}
+
+.rc-flex-left {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: left;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+@media(min-width:375px) {
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .box {
+        padding: 10px;
+        flex-basis: 45%;
+        text-align: center;
+    }
+}
