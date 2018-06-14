@@ -42,7 +42,7 @@ def login_view(request):
 
 def register_view(request):
 
-    print(request.user.is_authenticated())
+
 
     next = request.GET.get('next')
 
