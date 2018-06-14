@@ -42,8 +42,6 @@ def login_view(request):
 
 def register_view(request):
 
-
-
     next = request.GET.get('next')
 
     title = "Register"
